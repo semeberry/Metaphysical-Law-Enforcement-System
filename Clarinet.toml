@@ -9,6 +9,21 @@ requirements = []
 path = 'contracts/cosmic-constant-violation.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.karmic-balance]
+path = 'contracts/karmic-balance.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.reality-integrity]
+path = 'contracts/reality-integrity.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.transdimensional-jurisdiction]
+path = 'contracts/transdimensional-jurisdiction.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
